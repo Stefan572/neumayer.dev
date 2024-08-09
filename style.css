@@ -1,0 +1,11 @@
+:root {
+    --background-color-light: #282a36;
+    --background-color-dark: #21232d;
+    --font-color: #9b9fb5;
+    --font: ""
+}
+
+body {
+    background-color: var(--background-color-dark);
+    color: var(--font-color)
+}
