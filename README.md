@@ -1,2 +1,2 @@
 # neumayer.dev
-Website to display projects and general it projects
+Website to display software projects and general IT projects
