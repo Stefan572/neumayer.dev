@@ -8,7 +8,7 @@
 
 body {
     background-color: var(--background-color-dark);
-    color: var(--font-color)
+    color: var(--font-color);
 }
 
  /* unvisited link */
