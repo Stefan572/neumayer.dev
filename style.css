@@ -2,10 +2,47 @@
     --background-color-light: #282a36;
     --background-color-dark: #21232d;
     --font-color: #9b9fb5;
+    --link-chlor: white;
     --font: ""
 }
 
 body {
     background-color: var(--background-color-dark);
     color: var(--font-color)
+}
+
+ /* unvisited link */
+ a:link {
+    color: var(--link-color);
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: var(--link-color);
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: var(--link-color);
+    text-decoration: underline;
+  }
+  
+  /* selected link */
+  a:active {
+    color: var(--link-color);
+    text-decoration: none;
+  } 
+  
+
+
+.example-clamp {
+    /*          min, pref, max*/
+    width: clamp(200px, 50%, 600px);
+    aspect-ratio: 16/9;
+}
+
+.example-calc {
+    height: calc(100vh - 20 vh)
 }
